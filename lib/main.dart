@@ -11,7 +11,7 @@ class ListaMenorQueCincoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Números menores que 5',
-      debugShowCheckedModeBanner: false, // remove o selo "DEBUG"
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
